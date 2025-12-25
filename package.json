@@ -9,6 +9,8 @@
     "test": "vitest run",
     "test:report": "vitest run -- --coverage --costs",
     "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
+    ,
+    "wallet:cli": "node src/wallet-cli.mjs"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +25,7 @@
     "@reown/walletkit": "latest",
     "@walletconnect/utils": "latest",
     "@walletconnect/core": "latest"
+    ,
+    "dotenv": "latest"
   }
 }
