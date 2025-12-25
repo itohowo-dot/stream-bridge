@@ -20,8 +20,8 @@
     "vite": "^6.1.0",
     "vitest": "^3.0.0",
     "vitest-environment-clarinet": "^2.3.0",
-    "@reown/walletkit": "^0.4.0",
-    "@walletconnect/utils": "^2.0.0",
-    "@walletconnect/core": "^2.0.0"
+    "@reown/walletkit": "latest",
+    "@walletconnect/utils": "latest",
+    "@walletconnect/core": "latest"
   }
 }
