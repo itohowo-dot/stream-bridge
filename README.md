@@ -293,3 +293,27 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## WalletConnect Integration
+
+Quick steps to install WalletConnect WalletKit and run the wallet helper included in `src/`:
+
+1. Install packages:
+
+```bash
+npm install @reown/walletkit @walletconnect/utils @walletconnect/core
+```
+
+2. Initialize the WalletKit helper (example):
+
+```bash
+# set a WalletConnect project id then run
+export PROJECT_ID=your_project_id
+node --loader ts-node/esm src/main.ts
+```
+
+Files added:
+- `src/wallet.ts` — WalletKit initialization and helper functions
+- `src/main.ts` — minimal example showing init and listing active sessions
+
+Refer to the WalletConnect docs for web WalletKit usage: https://docs.walletconnect.network/wallet-sdk/web/usage
