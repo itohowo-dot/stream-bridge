@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { Core } from "@walletconnect/core";
 import { WalletKit, WalletKitTypes } from "@reown/walletkit";
 import { buildApprovedNamespaces, getSdkError } from "@walletconnect/utils";
