@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { initWalletKit, getActiveSessions } from "./wallet";
 
 async function main() {
